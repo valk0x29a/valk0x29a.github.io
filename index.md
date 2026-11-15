@@ -148,6 +148,7 @@ Wtedy plik project.godot powinnien być automatycznie wybrany i trzeba jedynie n
 ![](assets/ImportImport.png)  
 ### Nasz projekt
 Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień.  
+Pobierzcie i rozpakujcie go.  
 Dostępny jest on pod linkiem: ![Github Repo](https://github.com/alanva36/vertex-godot-course-showcase)
 ### Sygnały
 Sygnały są systemem delegacji w Godocie. Jest to system który pozwala na elastyczne wywoływanie kodu.  
