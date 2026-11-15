@@ -135,7 +135,9 @@ W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a
 Dlatego że scena jest to drzewo node’ów, jest ona bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
 
 ### Project Settings
+![] (valk0x29a.github.io/assets/OpenProjectSettings.png)
 Znajdują się tam ustawienia projektu.
+![] (valk0x29a.github.io/assets/ProjectSettings.png)
 Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalic gra, ustawienia renderera, fizyki itd.
  Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
 
