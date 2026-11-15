@@ -145,8 +145,7 @@ Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projekt�
 
 ### Nasz projekt
 Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień.  
-Dostępny jest on pod linkiem: 
-https://github.com/alanva36/vertex-godot-course-showcase
+Dostępny jest on pod linkiem: ![Github Repo](https://github.com/alanva36/vertex-godot-course-showcase)
 ### Sygnały
 ### Local i Remote Scene
 Podczas odpalenia sceny widać dwie zakładki w oknie Scene: Remote oraz Local.
