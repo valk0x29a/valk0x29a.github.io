@@ -162,7 +162,7 @@ Jako prefab rozumiemy obiekt który jest zapisany do pliku i można kopiować we
 Słuzy to temu aby mieć jeden plik, który jest oryginalny i nowe edycje w nim zaaplikowały się do wszystkich jego instancji  
 Inne siliniki odróżniają sceny od prefabów  
 W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a sceną.  
-Dlatego że scena to jest drzewo node’ów, jest ona również bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
+Dlatego że scena to jest drzewo node’ów z tylko jednym root node'em, jest ona również bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
 
 ### Project Settings
 ![](assets/OpenProjectSettings.png)  
