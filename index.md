@@ -141,8 +141,11 @@ Możesz teraz w oknie Inspector zmienić wartość speed i ujrzyć że większą
 
 ### Załadowywanie projektów
 Projekty godota to są zwykłe foldery z plikiem project.godot i ukrytym folderem .godot w środku  
-Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projektów Godota i wejść do folderu projektu. Wtedy plik project.godot powinnien być automatycznie wybrany i trzeba jedynie nacisnąć Open i potem Import
-
+Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projektów Godota i wejść do folderu projektu. 
+![](assets/Import.png)  
+Wtedy plik project.godot powinnien być automatycznie wybrany i trzeba jedynie nacisnąć Open i potem Import
+![](assets/OpenImport.png)  
+![](assets/ImportImport.png)  
 ### Nasz projekt
 Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień.  
 Dostępny jest on pod linkiem: ![Github Repo](https://github.com/alanva36/vertex-godot-course-showcase)
