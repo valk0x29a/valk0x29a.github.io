@@ -27,14 +27,14 @@ Dziedziczenie – służy do rozszerzenie funkcjonalności skryptu poprzez dodan
 #### Utworzenie pierwszego Node'a
 
  Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D
-![](valk0x29a.github.io/assets/Create2DRootNode.png)
+![](assets/Create2DRootNode.png)
 
  Node’y tworzą razem drzewo. Node, który właśnie utworzyliśmy jest zwany node’m głównym – „Root”, który jest na samym szczycie, i występuje on tylko jeden. Pod nim znajdują się jego childreny, a pod nimi znajdują się ich childreny – i tak dalej…
 W Hierarchy możemy edytować to drzewo. Dodawać childreny, przenosić childreny z jednego node’a do drugiego itd.
 
 
 Child’a można dodać poprzez naciśnięcie prawym przyciskiem na node’a i nacisnięcie tego przycisku. Wtedy otworzy ci się okno gdzie możesz wyszukać typ o jakim ma być ten nowy Node. W ramach kursu utwórz dwa razy node’y o typie Sprite2D.
-![](valk0x29a.github.io/assets/CreateChildNode.png)
+![](assets/CreateChildNode.png)
 
 
 Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI „Scene” tak aby nie trzeba było ich widzieć
