@@ -147,6 +147,32 @@ Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projekt�
 Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień.  
 Dostępny jest on pod linkiem: ![Github Repo](https://github.com/alanva36/vertex-godot-course-showcase)
 ### Sygnały
+Sygnały są systemem delegacji w Godocie. Jets to system który elastyczne wywoływanie kodu.  
+Deklaruje się go w takim formacie:
+```
+signal nazwa_sygnału(argumenty_sygnału)
+```
+wtedy mozna go wywołac w kodzie poprzez:
+```
+nazwa_sygnału.emit(argumenty_sygnału)
+```
+Każdy skrypt, który ma dostęp do instancji naszego skryptu z sygnałem może połaczyć się z tym sygnałem i wtedy funkcja do jakiej ona się połączyła wywoła się. Sygnał może wywoływac wiele takich funkcji.  
+Łączy się z sygnałem poprzez użycie:
+```
+nazwa_sygnału.connect(nazwa_funkcji_jaka_cchemy_wywolac)
+```
+Przykładem użycia sygnałów w silniku Godot jest sygnał button_down w klasie Button:
+```
+func _ready():
+	var button = Button.new()
+	button.button_down.connect(_on_button_down)
+
+func _on_button_down():
+	print("Button down!")
+
+```
+W taki sposób mamy kontrolę nad tym jaka funkcja sie wywoła gdy naciśnie się Godotowy przycisk.  
+Więcej o tym mozna przeczytać pod: https://docs.godotengine.org/en/stable/classes/class_signal.html#class-signal
 ### Local i Remote Scene
 Podczas odpalenia sceny widać dwie zakładki w oknie Scene: Remote oraz Local.
 Local oznacza scenę, którą edytowaliśmy w Godocie  
