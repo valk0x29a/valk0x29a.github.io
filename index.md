@@ -65,7 +65,7 @@ Grę można odpalić klikając w przyciski poniżej
 
 ### Poruszanie się po scenie
 Poruszać się po scenie w panelu 2D można poprzez nacisnięcie środkowego przycisku myszki oraz przesunięciem myszki
-Można również nasinąć G i po prostu przesunąć naśniętą myszkę. 
+Można również nasinąć G i po prostu przesunąć naśniętą myszkę.  
 ![](assets/EditModes.png)  
 Na górze można zobaczyć inne tryby edycji – Q jest defaultowym trybem, G jest właśnie jednym z tym trybów i W/E/R – oznaczają w kolejności tryby translacji/rotacji/skalowania
 
