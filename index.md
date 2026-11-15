@@ -75,7 +75,7 @@ Możesz odpalić scenę, aby zobaczyć że zmiany widać w panelu „Game”
 
 ### GDScript
 Godot do skryptów używa własnego oryginalnego języka – GDScript. Jest on podobny składniowo do Pythona, lecz jest bardziej elastyczny oraz głęboko połączony z silinkiem – co poprawia komfort z pisania.
-Przejdź do panelu „Scripts” i w lewym górnym rogu panelu naciśnij File → New Script, aby utworzyć nowy skrypt. Nazwij go rotate.gd
+Przejdź do panelu „Scripts” i w lewym górnym rogu panelu naciśnij File → New Script, aby utworzyć nowy skrypt. Nazwij go ```rotate.gd```
 
 ### _process i _ready
 Ponieważ każdy Node w scenie musi dziedziczyć po godotowym skrypcie „Node”, to w każdym skrypcie są dostępne funkcje, które Godot wywołuje za nas. Jedną z takich funkcji jest ```_process``` i ```_ready```.  
@@ -123,7 +123,7 @@ Dodaj w skrypcie do _process linijkę:
 Teraz możemy podłączyć nasz pierwszy skrypt  
 Zaznacz node’a Sprite2D i w oknie Inspectora na dole będziesz miał puste pole Script  
 ![](assets/AttachScript.png)  
-Przeciągnij tam skrypt o nazwie rotate.gd z okna FileSystem.  
+Przeciągnij tam skrypt o nazwie ```rotate.gd`` z okna FileSystem.  
 Zapisz i Odpal scenę.  
 Ujrzysz teraz że w scenie jeden sprite się obraca, a w konsoli ukazuje się tekst.  
 Możesz teraz w oknie Inspector zmienić wartość speed i ujrzyć że większą/mniejsza wartość szybciej/wolniej obraca gracza
