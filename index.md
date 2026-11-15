@@ -97,6 +97,7 @@ Dodaj nad funkcjami linijkę
 var speed : float = 5.0
 ```
 równoważne jest również ```var speed := 5.0```, ponieważ typ zmiennej się „obliczy” na podstawie przypisanej wartości czyli 5.0  
+
 Dodaj również  * speed do linijki w _process.  
 Linijka tak będzie wyglądała po edycji:
 ```
