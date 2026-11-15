@@ -144,8 +144,8 @@ Projekty godota to są zwykłe foldery z plikiem project.godot i ukrytym foldere
 Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projektów Godota i wejść do folderu projektu. Wtedy plik project.godot powinnien być automatycznie wybrany i trzeba jedynie nacisnąć Open i potem Import
 
 ### Nasz projekt
-Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień
-Jest on pod linkiem: 
+Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień.  
+Dostępny jest on pod linkiem: 
 https://github.com/alanva36/vertex-godot-course-showcase
 ### Sygnały
 ### Local i Remote Scene
@@ -161,15 +161,15 @@ Zakładkę remote można też uzyskać gdy odpali się debugową wersje builda g
 Jako prefab rozumiemy obiekt który jest zapisany do pliku i można kopiować we scenie.
 Słuzy to temu aby mieć jeden plik, który jest oryginalny i nowe edycje w nim zaaplikowały się do wszystkich jego instancji  
 Inne siliniki odróżniają sceny od prefabów  
-W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a sceną.
-Dlatego że scena jest to drzewo node’ów, jest ona bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
+W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a sceną.  
+Dlatego że scena to jest drzewo node’ów, jest ona również bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
 
 ### Project Settings
 ![](assets/OpenProjectSettings.png)  
 Znajdują się tam ustawienia projektu.  
 ![](assets/ProjectSettings.png)  
-Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalic gra, ustawienia renderera, fizyki itd.
- Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
+Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalić gra, ustawienia renderera, fizyki itd.
+Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
 
 ### Pluginy i GDExtension
 Poprzez pluginy można rozszerzyć funkcjonalność edytora Godota. Przykład jest w następnym segmencie.  
@@ -184,7 +184,3 @@ Edytor Godota sam w sobie jest „grą” w silniku Godota. Jego UI jest drzewem
 Poprzez plugin możemy po prostu sami dodawać do edytora node’y służące do UI i wtedy będziemy mogli je ujrzeć.   
 Przykład stworzonego tool’a do szybkiej edycji danych w poprzednim projekcie:  
 ![](assets/MindPalaceEditor.png)
-
-### Best Practices
-
-
