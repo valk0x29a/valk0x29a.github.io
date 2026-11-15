@@ -123,7 +123,7 @@ Dlatego musimy dodać tą adnotację do wcześniej zadeklarowanej zmiennej:
 ### print() i Konsola
 Możemy również wyświetlić rzeczy poprzez funkcję print(), pojawi się wtedy ona w Oknie „Console” na dole.
 Dostępna jest również funkcja printerr() dla wyświetlenia erroru.  
-Dodaj w skrypcie do _process linijkę:
+Dodaj w skrypcie do ```_process``` linijkę:
 ```
     print(„obracam się yippiee”)
 ```
@@ -144,6 +144,9 @@ Projekty godota to są zwykłe foldery z plikiem project.godot i ukrytym foldere
 Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projektów Godota i wejść do folderu projektu. Wtedy plik project.godot powinnien być automatycznie wybrany i trzeba jedynie nacisnąć Open i potem Import
 
 ### Nasz projekt
+Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień
+Jest on pod linkiem: 
+https://github.com/alanva36/vertex-godot-course-showcase
 ### Sygnały
 ### Local i Remote Scene
 Podczas odpalenia sceny widać dwie zakładki w oknie Scene: Remote oraz Local.
