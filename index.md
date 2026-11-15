@@ -73,7 +73,7 @@ Grę można odpalić klikając w przyciski poniżej
 Główna scenę mozna ustawić w klikając prawym przyciskiem na scenę w oknie FileSystem, albo w Project Settings, albo gdy żadna główna scena nie jest ustawiona, to pojawi się okno przy odpalaniu głownej sceny czy chcemy ustawić aktualną scenę jak główną.
 
 ### Poruszanie się po scenie
-Poruszać się po scenie w panelu 2D można poprzez nacisnięcie środkowego przycisku myszki oraz przesunięciem myszki
+Poruszać się po scenie w panelu 2D można poprzez nacisnięcie środkowego przycisku myszki oraz przesunięciem myszki.  
 Można również nasinąć G i po prostu przesunąć naśniętą myszkę.  
 
 Na górze można zobaczyć inne tryby edycji – Q jest defaultowym trybem, G jest właśnie jednym z tym trybów i W/E/R – oznaczają w kolejności tryby translacji/rotacji/skalowania  
@@ -83,7 +83,7 @@ Teraz poprzez bardziej preferowany ci sposób (Tryb Q lub W) zmień pozycję jed
 Możesz odpalić scenę, aby zobaczyć że zmiany widać w panelu „Game”
 
 ### GDScript
-Godot do skryptów używa własnego oryginalnego języka – GDScript. Jest on podobny składniowo do Pythona, lecz jest bardziej elastyczny oraz głęboko połączony z silinkiem – co poprawia komfort z pisania.
+Godot do skryptów używa własnego oryginalnego języka – GDScript. Jest on podobny składniowo do Pythona, lecz jest bardziej elastyczny oraz głęboko połączony z silinkiem – co poprawia komfort z pisania.  
 Przejdź do panelu „Scripts” i w lewym górnym rogu panelu naciśnij File → New Script, aby utworzyć nowy skrypt. Nazwij go ```rotate.gd```
 
 ### _process i _ready
@@ -100,7 +100,7 @@ delta jest zmienną float od godota, która mówi ile czasu minęło na wyświet
 ### Zmienne i @export
 Zmienne w skrypcie tworzymy poprzez format
 ```
-var nazwa_zmiennej : typ zmiennej 
+var nazwa_zmiennej : typ_zmiennej 
 ```
 Dodaj nad funkcjami linijkę 
 ```
