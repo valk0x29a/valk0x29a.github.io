@@ -50,9 +50,9 @@ Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić 
 ### Zmienne w Godocie
 Zmienne w Nodzie (czyli instancji skryptu) można modyfikować w oknie Inspector po jego zaznaczeniu w oknie Scene. 
 Będą tam wyświetlone wszytskie klasy, po których dziedziczy skrypt Node’a. Do każdej klasy będą wylistowane wszytskie ich dostępne zmienne do modifikacji i/lub odczytu.  
-Nie wszystkie zmienne klasy są pokazywane przez godota. W własnych skryptach pokazuje się pożądane zmienne poprzez adnotację @export w skrypcie (o czym mowa później)  
+Nie wszystkie zmienne klasy są pokazywane przez godota. W własnych skryptach pokazuje się pożądane zmienne poprzez adnotację @export (o czym mowa później)  
 
-Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez mały przycisk folderu i ustaw icon.svg  
+Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez mały przycisk folderu i wybierz icon.svg  
 ![](assets/OpenTextureVariable.png)  
 ![](assets/OpenSVG.png)
 ### Koncept Sceny
@@ -69,7 +69,8 @@ W 2D widzimy edytowaną aktualnie scenę
 W Game widzimy odpaloną grę  
 Grę można odpalić klikając w przyciski poniżej  
 ![](assets/LaunchScene.png)  
-1 – odpalenie głównej sceny,  2 – odpalenie aktualnie edytowanej sceny
+1 – odpalenie głównej sceny,  2 – odpalenie aktualnie edytowanej sceny  
+Główna scenę mozna ustawić w klikając prawym przyciskiem na scenę w oknie FileSystem, albo w Project Settings, albo gdy żadna główna scena nie jest ustawiona, to pojawi się okno przy odpalaniu głownej sceny czy chcemy ustawić aktualną scenę jak główną.
 
 ### Poruszanie się po scenie
 Poruszać się po scenie w panelu 2D można poprzez nacisnięcie środkowego przycisku myszki oraz przesunięciem myszki
