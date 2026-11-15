@@ -6,7 +6,7 @@ Odpalenie tego pliku otwiera Menadżera Projektów – jak odpalimy w nim projek
 Ustawiamy Compatibility przy tworzeniu nowego projektu, aby odpalił się na starych kartach graficznych tj. Stare Integry Intela (HD 3000)  
 
 ### UI Godota 
-####Dock
+#### Dock
 UI Godota Składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna. Dostępne pozycje mogą się rożnić w zależności od docka. Przykłądem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
 
 Dock’a możemy przenieść intuicyjnie myszką. 
