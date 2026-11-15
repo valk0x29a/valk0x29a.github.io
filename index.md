@@ -41,6 +41,7 @@ Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI 
 Po prawej stronie znajduje się też Oko, którego naciśnięcie przełącza widoczność Node’a 
 UWAGA: wyłączenie widocznośći NIE WYŁĄCZA zachowania node’a – On ciągle występuje w scenie i odpala swój skrypt
 Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić jego nazwę
+![](assets/SceneUI.png)
 
 ### Zmienne w Godocie
 Zmienne w Nodzie (czyli instancji skryptu) można modyfikować w oknie Inspector po jego zaznaczeniu w oknie Scene. 
@@ -48,7 +49,8 @@ Będą tam wyświetlone wszytskie klasy, po których dziedziczy skrypt Node’a.
 Nie wszystkie zmienne klasy są pokazywane przez godota. W własnych skryptach pokazuje się pożądane zmienne poprzez adnotację @export w skrypcie (o czym mowa później)
 
 Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez mały przycisk folderu i ustaw icon.svg
-
+![](assets/OpenTextureVariable.png)
+![](assets/OpenSVG.png)
 ### Koncept Sceny
 Wcześniej omawiane drzewo node’ów nazywamy sceną i możemy zapisać je do pliku. Wtedy będzie zapisany każdy typ node’a, układ drzewa nede’ów oraz wartości zmiennych.
 
@@ -62,7 +64,7 @@ Są dwa taby w głównym panelu które nas obchodzą: 2D i Game.
 W 2D widzimy edytowaną aktualnie scenę
 W Game widzimy odpaloną grę
 Grę można odpalić klikając w przyciski poniżej
-
+![](assets/LaunchScene.png)
 1 – odpalenie głównej sceny,  2 – odpalenie aktualnie edytowanej sceny
 
 ### Poruszanie się po scenie
@@ -138,9 +140,9 @@ W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a
 Dlatego że scena jest to drzewo node’ów, jest ona bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
 
 ### Project Settings
-![](valk0x29a.github.io/assets/OpenProjectSettings.png)
+![](assets/OpenProjectSettings.png)
 Znajdują się tam ustawienia projektu.
-![](valk0x29a.github.io/assets/ProjectSettings.png)
+![](assets/ProjectSettings.png)
 Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalic gra, ustawienia renderera, fizyki itd.
  Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
 
@@ -155,7 +157,7 @@ Istnieje również system modułów C++, które są bardziej zintegrowane z siln
 Edytor Godota sam w sobie jest „grą” w silniku Godota. Jego UI jest drzewem node’ów. 
 Poprzez plugin możemy po prostu sami dodawać do edytora node’y służące do UI i wtedy będziemy mogli je ujrzeć.
 Przykład stworzonego tool’a do szybkiej edycji danych w poprzednim projekcie:
-![](valk0x29a.github.io/assets/MindPalaceEditor.png)
+![](assets/MindPalaceEditor.png)
 
 ### Best Practices
 
