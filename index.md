@@ -9,7 +9,7 @@ Ustawiamy Compatibility przy tworzeniu nowego projektu, aby odpalił się na sta
 UI Godota składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna. Dostępne pozycje mogą się rożnić w zależności od docka. Przykładem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
 ![](assets/Docks.png)  
 Dock’a możemy przenieść intuicyjnie myszką. 
-Mozemy również go przenieść w alternatywny sposób jak poniżej. Prawym przyciskiem na nazwie Docka otwieramy menu. Biały kolor oznacza aktualną pozycję. Bardziej szare opcje oznaczają miejsca gdzie już znajdują się inne dock’i
+Mozemy również go przenieść w alternatywny sposób jak poniżej. Prawym przyciskiem na nazwie Docka otwieramy menu. Biały kolor oznacza aktualną pozycję. Bardziej szare opcje oznaczają miejsca gdzie już znajdują się inne dock’i  
 ![](assets/DockMenu.png)  
 Dla niektórych dock’ów są dostępne tylko niektóre pozycje, które są oznaczone przez szare opcje
 ![](assets/ConsoleDockMenu.png)  
