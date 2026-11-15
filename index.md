@@ -79,8 +79,10 @@ Ponieważ każdy Node w scenie musi dziedziczyć po godotowym skrypcie „Node�
 ```_ ready``` wywołuje się gdy node wraz z wszystkimi jego childrenami się załaduje  
 ```_process``` wywołuje się co każdą klatkę gry  
 
-W funkcji ```_process``` dopisz:  
-```     rotate(delta)```  
+W funkcji ```_process``` dopisz:
+```     
+rotate(delta)
+```
 delta jest zmienną float od godota, która mówi ile czasu minęło na wyświetlenie poprzedniej klatki. Umożliwia on dopasowanie szybkości działania skryptu do ilości FPS(Frames Per Second) różnych komputerów. Im więcej FPS, tym mniejsza wartość delta, więc wtedy funkcja _process odpali się częsciej i tym samym różnice się wyrównają
 
 ### Zmienne i @export
