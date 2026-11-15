@@ -63,8 +63,8 @@ Możemy również utworzyć taką scenę samemu poprzez naciśnięcie prawego pr
 Są dwa taby w głównym panelu które nas obchodzą: 2D i Game.
 W 2D widzimy edytowaną aktualnie scenę
 W Game widzimy odpaloną grę
-Grę można odpalić klikając w przyciski poniżej
-![](assets/LaunchScene.png)
+Grę można odpalić klikając w przyciski poniżej  
+![](assets/LaunchScene.png)  
 1 – odpalenie głównej sceny,  2 – odpalenie aktualnie edytowanej sceny
 
 ### Poruszanie się po scenie
@@ -166,7 +166,7 @@ Istnieje również system modułów C++, które są bardziej zintegrowane z siln
 ### Własne Tools’y
 Edytor Godota sam w sobie jest „grą” w silniku Godota. Jego UI jest drzewem node’ów. 
 Poprzez plugin możemy po prostu sami dodawać do edytora node’y służące do UI i wtedy będziemy mogli je ujrzeć.
-Przykład stworzonego tool’a do szybkiej edycji danych w poprzednim projekcie:
+Przykład stworzonego tool’a do szybkiej edycji danych w poprzednim projekcie:  
 ![](assets/MindPalaceEditor.png)
 
 ### Best Practices
