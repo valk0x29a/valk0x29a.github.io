@@ -90,22 +90,32 @@ delta jest zmienną float od godota, która mówi ile czasu minęło na wyświet
 
 ### Zmienne i @export
 Zmienne w skrypcie tworzymy poprzez format
-„var nazwa_zmiennej : typ zmiennej”
+```
+    var nazwa_zmiennej : typ zmiennej 
+```
 Dodaj nad funkcjami linijkę 
+```
 var speed : float = 5.0
-równoważne jest również var speed := 5.0, ponieważ typ zmiennej się „obliczy” na podstawie przypisanej wrtosci czyli 5.0
+```
+równoważne jest również ```var speed := 5.0```, ponieważ typ zmiennej się „obliczy” na podstawie przypisanej wrtosci czyli 5.0
 Dodaj również  * speed do linijki w _process. Linijka tak będzie wyglądała po edycji:
+```
 rotate(speed * delta)
+```
 Godot pozwala na zmienne bez typów, ale wtedy ma gorszą wydajność
 Jeśli chcemy by w oknie „Inspector” pokazała się zmienna z naszego skryptu, musimy dodać adnotację @export przed zadeklarowaniem tej zmiennej
 Dlatego musimy dodać tą adnotację do wcześniej zadeklarowanej zmiennej:
+```
 @export var speed := 5.0
+```
 
 ### print() i Konsola
 Możemy również wyświetlić rzeczy poprzez funkcję print(), pojawi się wtedy ona w Oknie „Console” na dole.
 Dostępna jest również funkcja printerr() dla wyświetlenia erroru
 Dodaj w skrypcie do _process linijkę:
+```
 print(„obracam się yippiee”)
+```
 
 ### Nasz pierwszy skrypt
 Teraz możemy podłączyć nasz pierwszy skrypt
