@@ -1,11 +1,12 @@
 # Kurs Godota
-## Wstęp do Edytora
-### Stworzenie nowego projektu
+### Wstęp do Edytora
+#### Stworzenie nowego projektu
 Cały Godot zawiera się w jednym pliku wykonywalnym  
 Odpalenie tego pliku otwiera Menadżera Projektów – jak odpalimy w nim projekt dopiero wtedy odpali się pełny Godot.  
 Ustawiamy Compatibility przy tworzeniu nowego projektu, aby odpalił się na starych kartach graficznych tj. Stare Integry Intela (HD 3000)  
 
-### UI Godota - Dock
+### UI Godota 
+####Dock
 UI Godota Składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna. Dostępne pozycje mogą się rożnić w zależności od docka. Przykłądem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
 
 Dock’a możemy przenieść intuicyjnie myszką. 
@@ -13,7 +14,7 @@ Mozemy również go przenieść w alternatywny sposób jak poniżej. Prawym przy
 
 Dla niektórych dock’ów są dostępne tylko niektóre pozycje, które są oznaczone przez szare opcje
 
-### UI Godota – Główny Panel
+#### Główny Panel
 Po środku jest główny panel który rządzi się innymi zasadami – go się przełącza przyciskami na samej górze i nie mają opcji personalizacji.  
 Od przyszłej wersji Godot 4.8 (która teraz jest w becie), taby w głównym panelu, dostaną opcje personalizacji tj. ukrycie tab’u i floating window.
 
