@@ -20,9 +20,9 @@ Od przyszłej wersji Godot 4.8 (która teraz jest w becie), taby w głównym pan
 ### Node
 Aby wyjaśnić okno Scene, trzeba najpierw znać koncept Node’a  
 Node to w skrócie jest Instancja skryptu, który dziedziczy po godotowym skrypcie „Node”. Dzięki temu dziedziczeniu każdy node ma swoją nazwę, może posiadać swoich dzieci i rodziców oraz może wywoływać callback’i godota.
-
-Instancja - to jest termin z OOP (Object Oriented Programming) – w skrócie oznacza konkretny zestaw danych (tj. konkretny obiekt fizyki) na których dany skrypt oddziałuje (Dane są połączone z funkcjami w danym skrypcie)  
-Dziedziczenie – też termin z OOP – służy do rozszerzenie funkcjonalności skryptu poprzez dodanie do niego nowej funkcjonalności i zmiany zachowania skryptu dziedziczonego. Przykład z Godota – Node3D dziedziczy po Nodzie – wtedy Node3D zawiera funkcjonaność Node’a, ale też dodatkowa posiada koordynaty w trzech wymiarach.  
+#### Terminy z OOP
+Instancja - w skrócie oznacza konkretny zestaw danych (tj. konkretny obiekt fizyki) na których dany skrypt oddziałuje (Dane są połączone z funkcjami w danym skrypcie)  
+Dziedziczenie – służy do rozszerzenie funkcjonalności skryptu poprzez dodanie do niego nowej funkcjonalności i zmiany zachowania skryptu dziedziczonego. Przykład z Godota – Node3D dziedziczy po Nodzie – wtedy Node3D zawiera funkcjonaność Node’a, ale też dodatkowa posiada koordynaty w trzech wymiarach.  
 
 
  Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D
