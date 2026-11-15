@@ -41,9 +41,9 @@ W Hierarchy możemy edytować to drzewo. Dodawać childreny, przenosić children
 Child’a można dodać poprzez naciśnięcie prawym przyciskiem na node’a i nacisnięcie tego przycisku. Wtedy otworzy ci się okno gdzie możesz wyszukać typ o jakim ma być ten nowy Node. W ramach kursu utwórz dwa razy node’y o typie Sprite2D.  
 ![](assets/CreateChildNode.png)
 #### UI
-Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI „Scene” tak aby nie trzeba było ich widzieć
-Po prawej stronie znajduje się też Oko, którego naciśnięcie przełącza widoczność Node’a 
-UWAGA: wyłączenie widocznośći NIE WYŁĄCZA zachowania node’a – On ciągle występuje w scenie i odpala swój skrypt
+Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI „Scene” tak aby nie trzeba było ich widzieć.  
+Po prawej stronie znajduje się też Oko, którego naciśnięcie przełącza widoczność Node’a  
+UWAGA: wyłączenie widocznośći NIE WYŁĄCZA zachowania node’a – On ciągle występuje w scenie i odpala swój skrypt  
 Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić jego nazwę  
 ![](assets/SceneUI.png)
 
