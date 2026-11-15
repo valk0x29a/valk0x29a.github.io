@@ -75,12 +75,12 @@ Godot do skryptów używa własnego oryginalnego języka – GDScript. Jest on p
 Przejdź do panelu „Scripts” i w lewym górnym rogu panelu naciśnij File → New Script, aby utworzyć nowy skrypt. Nazwij go rotate.gd
 
 ### _process i _ready
-Ponieważ każdy Node w scenie musi dziedziczyć po godotowym skrypcie „Node”, to w każdym skrypcie są dostępne funkcje, które Godot wywołuje za nas. Jedną z takich funkcji jest ```_process``` i ```_ready```. 
+Ponieważ każdy Node w scenie musi dziedziczyć po godotowym skrypcie „Node”, to w każdym skrypcie są dostępne funkcje, które Godot wywołuje za nas. Jedną z takich funkcji jest ```_process``` i ```_ready```.  
 ```_ ready``` wywołuje się gdy node wraz z wszystkimi jego childrenami się załaduje  
 ```_process``` wywołuje się co każdą klatkę gry  
 
 W funkcji ```_process``` dopisz:  
-```rotate(delta)```  
+```rotate(delta)```
 delta jest zmienną float od godota, która mówi ile czasu minęło na wyświetlenie poprzedniej klatki. Umożliwia on dopasowanie szybkości działania skryptu do ilości FPS(Frames Per Second) różnych komputerów. Im więcej FPS, tym mniejsza wartość delta, więc wtedy funkcja _process odpali się częsciej i tym samym różnice się wyrównają
 
 ### Zmienne i @export
