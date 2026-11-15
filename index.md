@@ -78,7 +78,7 @@ Przejdź do panelu „Scripts” i w lewym górnym rogu panelu naciśnij File �
 
 ### _process i _ready
 Ponieważ każdy Node w scenie musi dziedziczyć po godotowym skrypcie „Node”, to w każdym skrypcie są dostępne funkcje, które Godot wywołuje za nas. Jedną z takich funkcji jest ```_process``` i ```_ready```.  
-```_ ready``` wywołuje się gdy node wraz z wszystkimi jego childrenami się załaduje  
+```_ready``` wywołuje się gdy node wraz z wszystkimi jego childrenami się załaduje  
 ```_process``` wywołuje się co każdą klatkę gry  
 
 W funkcji ```_process``` dopisz:
@@ -159,7 +159,8 @@ Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalic gra, ustawieni
  Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
 
 ### Pluginy i GDExtension
-Poprzez pluginy można rozszerzyć funkcjonalność edytora Godota. Przykład będzie na następnym slajdzie.  
+Poprzez pluginy można rozszerzyć funkcjonalność edytora Godota. Przykład jest w następnym segmencie.  
+
 GDExtension służy do pisania kodu który komunikuje się z natywną warstwą silnika.  
 Słuzy on do rozszerzenia funkcjonalności samego silnika Godota. Przykładem jest plugin Terrain3D  
 Społeczność może tworzyć własne bindingi do niego, dlatego może używac wiele języków tj. C++, Rust, Python, Odin.  
