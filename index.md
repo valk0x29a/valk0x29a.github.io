@@ -6,7 +6,7 @@ Odpalenie tego pliku otwiera Menadżera Projektów – jak odpalimy w nim projek
 Ustawiamy Compatibility przy tworzeniu nowego projektu, aby odpalił się na starych kartach graficznych tj. Stare Integry Intela (HD 3000)  
 
 ### UI Godota - Dock
-UI Godota Składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna. Dostępne pozycje mogą się rożnić w zależności od docka. Przykłądem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
+UI Godota składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna. Dostępne pozycje mogą się rożnić w zależności od docka. Przykładem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
 
 Dock’a możemy przenieść intuicyjnie myszką. 
 Mozemy również go przenieść w alternatywny sposób jak poniżej. Prawym przyciskiem na nazwie Docka otwieramy menu. Biały kolor oznacza aktualną pozycję. Bardziej szare opcje oznaczają miejsca gdzie już znajdują się inne dock’i
@@ -91,19 +91,19 @@ delta jest zmienną float od godota, która mówi ile czasu minęło na wyświet
 ### Zmienne i @export
 Zmienne w skrypcie tworzymy poprzez format
 ```
-    var nazwa_zmiennej : typ zmiennej 
+var nazwa_zmiennej : typ zmiennej 
 ```
 Dodaj nad funkcjami linijkę 
 ```
 var speed : float = 5.0
 ```
-równoważne jest również ```var speed := 5.0```, ponieważ typ zmiennej się „obliczy” na podstawie przypisanej wrtosci czyli 5.0
+równoważne jest również ```var speed := 5.0```, ponieważ typ zmiennej się „obliczy” na podstawie przypisanej wartości czyli 5.0  
 Dodaj również  * speed do linijki w _process. Linijka tak będzie wyglądała po edycji:
 ```
-rotate(speed * delta)
+    rotate(speed * delta)
 ```
 Godot pozwala na zmienne bez typów, ale wtedy ma gorszą wydajność
-Jeśli chcemy by w oknie „Inspector” pokazała się zmienna z naszego skryptu, musimy dodać adnotację @export przed zadeklarowaniem tej zmiennej
+Jeśli chcemy by w oknie „Inspector” pokazała się zmienna z naszego skryptu, musimy dodać adnotację @export przed zadeklarowaniem tej zmiennej.  
 Dlatego musimy dodać tą adnotację do wcześniej zadeklarowanej zmiennej:
 ```
 @export var speed := 5.0
@@ -111,10 +111,10 @@ Dlatego musimy dodać tą adnotację do wcześniej zadeklarowanej zmiennej:
 
 ### print() i Konsola
 Możemy również wyświetlić rzeczy poprzez funkcję print(), pojawi się wtedy ona w Oknie „Console” na dole.
-Dostępna jest również funkcja printerr() dla wyświetlenia erroru
+Dostępna jest również funkcja printerr() dla wyświetlenia erroru.  
 Dodaj w skrypcie do _process linijkę:
 ```
-print(„obracam się yippiee”)
+    print(„obracam się yippiee”)
 ```
 
 ### Nasz pierwszy skrypt
