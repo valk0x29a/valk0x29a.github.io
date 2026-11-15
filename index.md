@@ -118,8 +118,9 @@ Dodaj w skrypcie do _process linijkę:
 ```
 
 ### Nasz pierwszy skrypt
-Teraz możemy podłączyć nasz pierwszy skrypt
-Zaznacz node’a Sprite2D i w oknie Inspectora na dole będziesz miał puste pole Script
+Teraz możemy podłączyć nasz pierwszy skrypt  
+Zaznacz node’a Sprite2D i w oknie Inspectora na dole będziesz miał puste pole Script  
+![](assets/AttachScript.png)  
 Przeciągnij tam skrypt o nazwie rotate.gd z okna FileSystem
 Zapisz i Odpal scenę
 Ujrzysz teraz że w scenie jeden sprite się obraca, a w konsoli ukazuje się tekst
