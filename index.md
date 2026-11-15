@@ -25,13 +25,16 @@ Instancja - w skrócie oznacza konkretny zestaw danych (tj. konkretny obiekt fiz
 Dziedziczenie – służy do rozszerzenie funkcjonalności skryptu poprzez dodanie do niego nowej funkcjonalności i zmiany zachowania skryptu dziedziczonego. Przykład z Godota – Node3D dziedziczy po Nodzie – wtedy Node3D zawiera funkcjonaność Node’a, ale też dodatkowa posiada koordynaty w trzech wymiarach.  
 
 #### Utworzenie pierwszego Node'a
+
  Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D
+![](valk0x29a.github.io/assets/Create2DRootNode.png)
 
  Node’y tworzą razem drzewo. Node, który właśnie utworzyliśmy jest zwany node’m głównym – „Root”, który jest na samym szczycie, i występuje on tylko jeden. Pod nim znajdują się jego childreny, a pod nimi znajdują się ich childreny – i tak dalej…
 W Hierarchy możemy edytować to drzewo. Dodawać childreny, przenosić childreny z jednego node’a do drugiego itd.
 
 
 Child’a można dodać poprzez naciśnięcie prawym przyciskiem na node’a i nacisnięcie tego przycisku. Wtedy otworzy ci się okno gdzie możesz wyszukać typ o jakim ma być ten nowy Node. W ramach kursu utwórz dwa razy node’y o typie Sprite2D.
+![](valk0x29a.github.io/assets/CreateChildNode.png)
 
 
 Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI „Scene” tak aby nie trzeba było ich widzieć
@@ -152,6 +155,7 @@ Istnieje również system modułów C++, które są bardziej zintegrowane z siln
 Edytor Godota sam w sobie jest „grą” w silniku Godota. Jego UI jest drzewem node’ów. 
 Poprzez plugin możemy po prostu sami dodawać do edytora node’y służące do UI i wtedy będziemy mogli je ujrzeć.
 Przykład stworzonego tool’a do szybkiej edycji danych w poprzednim projekcie:
+![](valk0x29a.github.io/assets/MindPalaceEditor.png)
 
 ### Best Practices
 
