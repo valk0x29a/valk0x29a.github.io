@@ -26,21 +26,21 @@ Dziedziczenie – służy do rozszerzenie funkcjonalności skryptu poprzez dodan
 
 #### Utworzenie pierwszego Node'a
 
- Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D
-![](assets/Create2DRootNode.png)
+ Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D  
+![](assets/Create2DRootNode.png)  
 
  Node’y tworzą razem drzewo. Node, który właśnie utworzyliśmy jest zwany node’m głównym – „Root”, który jest na samym szczycie, i występuje on tylko jeden. Pod nim znajdują się jego childreny, a pod nimi znajdują się ich childreny – i tak dalej…
 W Hierarchy możemy edytować to drzewo. Dodawać childreny, przenosić childreny z jednego node’a do drugiego itd.
 
 
-Child’a można dodać poprzez naciśnięcie prawym przyciskiem na node’a i nacisnięcie tego przycisku. Wtedy otworzy ci się okno gdzie możesz wyszukać typ o jakim ma być ten nowy Node. W ramach kursu utwórz dwa razy node’y o typie Sprite2D.
+Child’a można dodać poprzez naciśnięcie prawym przyciskiem na node’a i nacisnięcie tego przycisku. Wtedy otworzy ci się okno gdzie możesz wyszukać typ o jakim ma być ten nowy Node. W ramach kursu utwórz dwa razy node’y o typie Sprite2D.  
 ![](assets/CreateChildNode.png)
 
 
 Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI „Scene” tak aby nie trzeba było ich widzieć
 Po prawej stronie znajduje się też Oko, którego naciśnięcie przełącza widoczność Node’a 
 UWAGA: wyłączenie widocznośći NIE WYŁĄCZA zachowania node’a – On ciągle występuje w scenie i odpala swój skrypt
-Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić jego nazwę
+Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić jego nazwę  
 ![](assets/SceneUI.png)
 
 ### Zmienne w Godocie
@@ -48,8 +48,8 @@ Zmienne w Nodzie (czyli instancji skryptu) można modyfikować w oknie Inspector
 Będą tam wyświetlone wszytskie klasy, po których dziedziczy skrypt Node’a. Do każdej klasy będą wylistowane wszytskie ich dostępne zmienne do modifikacji i/lub odczytu.
 Nie wszystkie zmienne klasy są pokazywane przez godota. W własnych skryptach pokazuje się pożądane zmienne poprzez adnotację @export w skrypcie (o czym mowa później)
 
-Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez mały przycisk folderu i ustaw icon.svg
-![](assets/OpenTextureVariable.png)
+Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez mały przycisk folderu i ustaw icon.svg  
+![](assets/OpenTextureVariable.png)  
 ![](assets/OpenSVG.png)
 ### Koncept Sceny
 Wcześniej omawiane drzewo node’ów nazywamy sceną i możemy zapisać je do pliku. Wtedy będzie zapisany każdy typ node’a, układ drzewa nede’ów oraz wartości zmiennych.
@@ -140,9 +140,9 @@ W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a
 Dlatego że scena jest to drzewo node’ów, jest ona bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
 
 ### Project Settings
-![](assets/OpenProjectSettings.png)
-Znajdują się tam ustawienia projektu.
-![](assets/ProjectSettings.png)
+![](assets/OpenProjectSettings.png)  
+Znajdują się tam ustawienia projektu.  
+![](assets/ProjectSettings.png)  
 Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalic gra, ustawienia renderera, fizyki itd.
  Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
 
