@@ -61,8 +61,8 @@ Możemy również utworzyć taką scenę samemu poprzez naciśnięcie prawego pr
 
 ### Odpalanie Sceny
 Są dwa taby w głównym panelu które nas obchodzą: 2D i Game.
-W 2D widzimy edytowaną aktualnie scenę
-W Game widzimy odpaloną grę
+W 2D widzimy edytowaną aktualnie scenę  
+W Game widzimy odpaloną grę  
 Grę można odpalić klikając w przyciski poniżej  
 ![](assets/LaunchScene.png)  
 1 – odpalenie głównej sceny,  2 – odpalenie aktualnie edytowanej sceny
@@ -121,32 +121,32 @@ Dodaj w skrypcie do _process linijkę:
 Teraz możemy podłączyć nasz pierwszy skrypt  
 Zaznacz node’a Sprite2D i w oknie Inspectora na dole będziesz miał puste pole Script  
 ![](assets/AttachScript.png)  
-Przeciągnij tam skrypt o nazwie rotate.gd z okna FileSystem
-Zapisz i Odpal scenę
-Ujrzysz teraz że w scenie jeden sprite się obraca, a w konsoli ukazuje się tekst
+Przeciągnij tam skrypt o nazwie rotate.gd z okna FileSystem.  
+Zapisz i Odpal scenę.  
+Ujrzysz teraz że w scenie jeden sprite się obraca, a w konsoli ukazuje się tekst.  
 Możesz teraz w oknie Inspector zmienić wartość speed i ujrzyć że większą/mniejsza wartość szybciej/wolniej obraca gracza
 
 ## W domu
 
 ### Załadowywanie projektów
-Projekty godota to są zwykłe foldery z plikiem project.godot i ukrytym folderem .godot w środku
+Projekty godota to są zwykłe foldery z plikiem project.godot i ukrytym folderem .godot w środku  
 Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projektów Godota i wejść do folderu projektu. Wtedy plik project.godot powinnien być automatycznie wybrany i trzeba jedynie nacisnąć Open i potem Import
 
 ### Nasz projekt
 ### Sygnały
 ### Local i Remote Scene
 Podczas odpalenia sceny widać dwie zakładki w oknie Scene: Remote oraz Local.
-Local oznacza scenę, którą edytowaliśmy w Godocie
-Remote oznacza instancję sceny odpaloną w panelu Game
-Te dwie sceny są oddzielne od siebie. Remote jest tworzone po odpaleniu i usuwane po zakończeniu gry
+Local oznacza scenę, którą edytowaliśmy w Godocie  
+Remote oznacza instancję sceny odpaloną w panelu Game  
+Te dwie sceny są oddzielne od siebie. Remote jest tworzone po odpaleniu i usuwane po zakończeniu gry  
 Można używać zakładki Remote do szybkiego testowania różnych wartości oraz sprawdzania zmiennych
 
 Zakładkę remote można też uzyskać gdy odpali się debugową wersje builda gry i połączy się go z edytorem.
 
 ### Sceny i „Prefaby”
 Jako prefab rozumiemy obiekt który jest zapisany do pliku i można kopiować we scenie.
-Słuzy to temu aby mieć jeden plik, który jest oryginalny i nowe edycje w nim zaaplikowały się do wszystkich jego instancji
-Inne siliniki odróżniają sceny od prefabów
+Słuzy to temu aby mieć jeden plik, który jest oryginalny i nowe edycje w nim zaaplikowały się do wszystkich jego instancji  
+Inne siliniki odróżniają sceny od prefabów  
 W Godocie prefab jest sceną, więc nie ma odróżnienia pomiędzy prefab’em a sceną.
 Dlatego że scena jest to drzewo node’ów, jest ona bardziej elastyczna. Każdą scenę da się zinstancjować w innej scenie.
 
