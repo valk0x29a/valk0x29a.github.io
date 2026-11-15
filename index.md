@@ -2,8 +2,8 @@
 ### Wstęp do Edytora
 #### Stworzenie nowego projektu
 CAŁY Godot zawiera się w jednym pliku wykonywalnym  
-Odpalenie tego pliku otwiera Menadżera Projektów – jak odpalimy w nim projekt dopiero wtedy odpali się pełny Godot.  
-Najpierw polecam zmienić język Godota na angielski w prawym górnym oknie Settings.  
+Odpalenie tego pliku otwiera Menadżer Projektów – jak odpalimy w nim projekt dopiero wtedy odpali się pełny Godot.  
+Najpierw polecam zmienić język Godota na angielski w prawym górnym oknie Ustawienia.  
 
 Musimy teraz utworzyć nowy projekt:  
 ![](assets/Create.png)  
@@ -56,7 +56,7 @@ Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez
 ![](assets/OpenTextureVariable.png)  
 ![](assets/OpenSVG.png)
 ### Koncept Sceny
-Wcześniej omawiane drzewo node’ów nazywamy sceną i możemy zapisać je do pliku. Wtedy będzie zapisany każdy typ node’a, układ drzewa nede’ów oraz wartości zmiennych.
+Wcześniej omawiane drzewo node’ów nazywamy sceną i możemy zapisać je do pliku. Wtedy będzie zapisany każdy typ node’a, układ drzewa node’ów oraz wartości ich zmiennych. Okno Scene służy własnie do edycji takiej sceny.
 
 ### Tworzenie własnej sceny
 W ramach kursu zapisz scenę poprzez Ctrl+S i nazwij go main_scene.tscn  
