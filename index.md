@@ -13,7 +13,7 @@ Mozemy również go przenieść w alternatywny sposób jak poniżej. Prawym przy
 
 Dla niektórych dock’ów są dostępne tylko niektóre pozycje, które są oznaczone przez szare opcje
 
-#### UI Godota - Głowny Panel
+### UI Godota - Głowny Panel
 Po środku jest główny panel który rządzi się innymi zasadami – go się przełącza przyciskami na samej górze i nie mają opcji personalizacji.  
 Od przyszłej wersji Godot 4.8 (która teraz jest w becie), taby w głównym panelu, dostaną opcje personalizacji tj. ukrycie tab’u i floating window.
 
