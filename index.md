@@ -79,8 +79,7 @@ Ponieważ każdy Node w scenie musi dziedziczyć po godotowym skrypcie „Node�
 ```_ ready``` wywołuje się gdy node wraz z wszystkimi jego childrenami się załaduje  
 ```_process``` wywołuje się co każdą klatkę gry  
 
-W funkcji ```_process``` dopisz:  
-rotate(delta)
+W funkcji ```_process``` dopisz ```rotate(delta)```  
 delta jest zmienną float od godota, która mówi ile czasu minęło na wyświetlenie poprzedniej klatki. Umożliwia on dopasowanie szybkości działania skryptu do ilości FPS(Frames Per Second) różnych komputerów. Im więcej FPS, tym mniejsza wartość delta, więc wtedy funkcja _process odpali się częsciej i tym samym różnice się wyrównają
 
 ### Zmienne i @export
@@ -153,15 +152,15 @@ Tam się ustawia np. defaultowy tryb okna w jakim ma się odpalic gra, ustawieni
  Uwzględniają one też lokalizację tekstu, Input Map’y. Globals (Globalne Node’y), Pluginy i GDExtension
 
 ### Pluginy i GDExtension
-Poprzez pluginy można rozszerzyć funkcjonalność edytora Godota. Przykład będzie na następnym slajdzie.
-GDExtension służy do pisania kodu który komunikuje się z natywną warstwą silnika.
-Słuzy on do rozszerzenia funkcjonalności samego silnika Godota. Przykładem jest plugin Terrain3D
-Społeczność może tworzyć własne bindingi do niego, dlatego może używac wiele języków tj. C++, Rust, Python, Odin.
+Poprzez pluginy można rozszerzyć funkcjonalność edytora Godota. Przykład będzie na następnym slajdzie.  
+GDExtension służy do pisania kodu który komunikuje się z natywną warstwą silnika.  
+Słuzy on do rozszerzenia funkcjonalności samego silnika Godota. Przykładem jest plugin Terrain3D  
+Społeczność może tworzyć własne bindingi do niego, dlatego może używac wiele języków tj. C++, Rust, Python, Odin.  
 Istnieje również system modułów C++, które są bardziej zintegrowane z silnikiem Godota nie mogą być pisane w innym języku
 
 ### Własne Tools’y
-Edytor Godota sam w sobie jest „grą” w silniku Godota. Jego UI jest drzewem node’ów. 
-Poprzez plugin możemy po prostu sami dodawać do edytora node’y służące do UI i wtedy będziemy mogli je ujrzeć.
+Edytor Godota sam w sobie jest „grą” w silniku Godota. Jego UI jest drzewem node’ów.  
+Poprzez plugin możemy po prostu sami dodawać do edytora node’y służące do UI i wtedy będziemy mogli je ujrzeć.   
 Przykład stworzonego tool’a do szybkiej edycji danych w poprzednim projekcie:  
 ![](assets/MindPalaceEditor.png)
 
