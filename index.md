@@ -24,7 +24,7 @@ Node to w skrócie jest Instancja skryptu, który dziedziczy po godotowym skrypc
 Instancja - w skrócie oznacza konkretny zestaw danych (tj. konkretny obiekt fizyki) na których dany skrypt oddziałuje (Dane są połączone z funkcjami w danym skrypcie)  
 Dziedziczenie – służy do rozszerzenie funkcjonalności skryptu poprzez dodanie do niego nowej funkcjonalności i zmiany zachowania skryptu dziedziczonego. Przykład z Godota – Node3D dziedziczy po Nodzie – wtedy Node3D zawiera funkcjonaność Node’a, ale też dodatkowa posiada koordynaty w trzech wymiarach.  
 
-
+#### Utworzenie pierwszego Node'a
  Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D
 
  Node’y tworzą razem drzewo. Node, który właśnie utworzyliśmy jest zwany node’m głównym – „Root”, który jest na samym szczycie, i występuje on tylko jeden. Pod nim znajdują się jego childreny, a pod nimi znajdują się ich childreny – i tak dalej…
