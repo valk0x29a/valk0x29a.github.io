@@ -3,11 +3,13 @@
 #### Stworzenie nowego projektu
 CAŁY Godot zawiera się w jednym pliku wykonywalnym  
 Odpalenie tego pliku otwiera Menadżera Projektów – jak odpalimy w nim projekt dopiero wtedy odpali się pełny Godot.  
-Musimy teraz utworzyć nowy projekt  
+Musimy teraz utworzyć nowy projekt:  
 ![](assets/Create.png)  
 nazywamy projekt jak chcemy.  
 Ustawiamy Compatibility przy tworzeniu nowego projektu, aby odpalił się na starych kartach graficznych tj. Stare Integry Intela (HD 3000)  
 ![](assets/Compatibility.png)  
+
+Później naciskamy na Create
 
 ### UI Godota - Dock
 UI Godota składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna. Dostępne pozycje mogą się rożnić w zależności od docka. Przykładem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
