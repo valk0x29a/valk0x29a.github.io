@@ -147,7 +147,7 @@ Aby załadować pobrany projekt, trzeba nacisnąć import w Menadżerze Projekt�
 Stworzyliśmy dla was większy projekt, w którym możecie samemu poeksperymentować sobie z Godotem oraz poznać więcej zagadnień.  
 Dostępny jest on pod linkiem: ![Github Repo](https://github.com/alanva36/vertex-godot-course-showcase)
 ### Sygnały
-Sygnały są systemem delegacji w Godocie. Jets to system który elastyczne wywoływanie kodu.  
+Sygnały są systemem delegacji w Godocie. Jest to system który pozwala na elastyczne wywoływanie kodu.  
 Deklaruje się go w takim formacie:
 ```
 signal nazwa_sygnału(argumenty_sygnału)
@@ -159,7 +159,7 @@ nazwa_sygnału.emit(argumenty_sygnału)
 Każdy skrypt, który ma dostęp do instancji naszego skryptu z sygnałem może połaczyć się z tym sygnałem i wtedy funkcja do jakiej ona się połączyła wywoła się. Sygnał może wywoływac wiele takich funkcji.  
 Łączy się z sygnałem poprzez użycie:
 ```
-nazwa_sygnału.connect(nazwa_funkcji_jaka_cchemy_wywolac)
+nazwa_sygnału.connect(nazwa_funkcji_jaka_chcemy_wywolac)
 ```
 Przykładem użycia sygnałów w silniku Godot jest sygnał button_down w klasie Button:
 ```
@@ -180,7 +180,9 @@ Remote oznacza instancję sceny odpaloną w panelu Game
 Te dwie sceny są oddzielne od siebie. Remote jest tworzone po odpaleniu i usuwane po zakończeniu gry  
 Można używać zakładki Remote do szybkiego testowania różnych wartości oraz sprawdzania zmiennych
 
-Zakładkę remote można też uzyskać gdy odpali się debugową wersje builda gry i połączy się go z edytorem.
+Zakładkę remote można też uzyskać gdy odpali się debugową wersje builda gry i połączy się go z edytorem.  
+
+Więcej o tym będzie w przyszłych terminach kursu.
 
 ### Sceny i „Prefaby”
 Jako prefab rozumiemy obiekt który jest zapisany do pliku i można kopiować we scenie.
