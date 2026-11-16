@@ -48,11 +48,11 @@ Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić 
 ![](assets/SceneUI.png)
 
 ### Zmienne w Godocie
-Zmienne w Nodzie (czyli instancji skryptu) można modyfikować w oknie Inspector po jego zaznaczeniu w oknie Scene. 
-Będą tam wyświetlone wszytskie klasy, po których dziedziczy skrypt Node’a. Do każdej klasy będą wylistowane wszytskie ich dostępne zmienne do modifikacji i/lub odczytu.  
-Nie wszystkie zmienne klasy są pokazywane przez godota. W własnych skryptach pokazuje się pożądane zmienne poprzez adnotację @export (o czym mowa później)  
+Zmienne w Nodzie można modyfikować w oknie Inspector po jego zaznaczeniu w oknie Scene. 
+Będą tam wyświetlone wszytskie klasy, po których dziedziczy Node. Do każdej klasy będą wylistowane wszytskie ich dostępne zmienne do modifikacji i/lub odczytu.  
+Nie wszystkie zmienne klasy są pokazywane przez godota. We własnych skryptach pokazuje się pożądane zmienne poprzez adnotację @export (o czym mowa później)  
 
-Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną texture poprzez mały przycisk folderu i wybierz icon.svg  
+Teraz w obydwóch utworzonych Node’ach Sprite2D ustaw zmienną ```texture``` poprzez mały przycisk folderu i wybierz icon.svg  
 ![](assets/OpenTextureVariable.png)  
 ![](assets/OpenSVG.png)
 ### Koncept Sceny
