@@ -43,7 +43,7 @@ Child’a można dodać poprzez naciśnięcie prawym przyciskiem na node’a i n
 #### UI
 Childreny danego node’a można zwinąć strzałką po jego lewej stronie w UI „Scene” tak aby nie trzeba było ich widzieć.  
 Po prawej stronie znajduje się też Oko, którego naciśnięcie przełącza widoczność Node’a  
-UWAGA: wyłączenie widocznośći NIE WYŁĄCZA zachowania node’a – On ciągle występuje w scenie i odpala swój skrypt  
+UWAGA: wyłączenie widocznośći NIE WYŁĄCZA zachowania node’a – On ciągle występuje w scenie i wykonuje swoje działanie
 Również klikając dwukrotnie na node’a, lub naciskając F2, można zmienić jego nazwę  
 ![](assets/SceneUI.png)
 
@@ -160,8 +160,8 @@ wtedy mozna go wywołac w kodzie poprzez:
 ```
 nazwa_sygnału.emit(argumenty_sygnału)
 ```
-Każdy skrypt, który ma dostęp do instancji naszego skryptu z sygnałem może połaczyć się z tym sygnałem i wtedy funkcja do jakiej ona się połączyła wywoła się. Sygnał może wywoływac wiele takich funkcji.  
-Łączy się z sygnałem poprzez użycie:
+Do sygnału można się podłączyć z poziomu innego kodu lub z poziomu edytora. Wtedy funkcja do jakiej ona się połączyła wywoła się przy emit(). Sygnał może wywoływac wiele takich funkcji.  
+W kodzie łączy się z sygnałem poprzez użycie:
 ```
 nazwa_sygnału.connect(nazwa_funkcji_jaka_chcemy_wywolac)
 ```
