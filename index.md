@@ -17,7 +17,7 @@ Później naciskamy na Create
 UI Godota składa się z panelu głównego oraz tabów, które nazywają się „Dock”. Można je przemieszczać pomiędzy dostępnymi pozycjami i do oddzielnego okna (tzw. floating window). Dostępne pozycje mogą się rożnić w zależności od docka. Przykładem jest dock Output i Debugger, który ma dostępne pozycje tylko na dole.
 ![](assets/Docks.png)  
 Dock’a możemy przenieść intuicyjnie myszką. 
-Mozemy również go przenieść w alternatywny sposób jak poniżej. Prawym przyciskiem na nazwie Docka otwieramy menu. Biały kolor oznacza aktualną pozycję. Bardziej szare opcje oznaczają miejsca gdzie już znajdują się inne dock’i:  
+Możemy również go przenieść w alternatywny sposób jak poniżej. Prawym przyciskiem na nazwie Docka otwieramy menu. Biały kolor oznacza aktualną pozycję. Bardziej szare opcje oznaczają miejsca gdzie już znajdują się inne dock’i:  
 ![](assets/DockMenu.png)  
 Dla niektórych dock’ów są dostępne tylko niektóre pozycje, które są oznaczone przez szare opcje:  
 ![](assets/ConsoleDockMenu.png)  
@@ -28,10 +28,10 @@ Od przyszłej wersji Godot 4.8 (która teraz jest w becie), taby w głównym pan
 
 ### Node
 Aby wyjaśnić okno Scene, trzeba najpierw znać koncept Node’a  
-Node to w skrócie jest Instancja skryptu, który dziedziczy po godotowym skrypcie „Node”. Dzięki temu dziedziczeniu każdy node ma swoją nazwę, może posiadać swoich dzieci i rodziców oraz może wywoływać callback’i godota.
+Node to w skrócie jest Instancja klasy, który dziedziczy po godotowej klasie „Node”. Dzięki temu dziedziczeniu każdy node ma swoją nazwę, może posiadać swoich dzieci i rodziców oraz może wywoływać callback’i godota.
 #### Terminy z OOP
-Instancja - w skrócie oznacza konkretny zestaw danych (tj. konkretny obiekt fizyki) na których dany skrypt oddziałuje (Dane są połączone z funkcjami w danym skrypcie)  
-Dziedziczenie – służy do rozszerzenia funkcjonalności skryptu poprzez dodanie do niego nowej funkcjonalności i zmiany zachowania skryptu dziedziczonego. Przykład z Godota – Node3D dziedziczy po Nodzie – wtedy Node3D zawiera funkcjonaność Node’a, ale też dodatkowo posiada koordynaty w trzech wymiarach.  
+Instancja - w skrócie oznacza konkretny zestaw danych (konkretny obiekt) na których dana klasa oddziałuje (Dane są połączone z funkcjami w klasach)  
+Dziedziczenie – służy do rozszerzenia funkcjonalności klasy poprzez dodanie do niego nowej funkcjonalności i zmiany zachowania klasy dziedziczonej. Przykład z Godota – Node3D dziedziczy po Nodzie – wtedy Node3D zawiera funkcjonaność Node’a, ale też dodatkowo posiada koordynaty w trzech wymiarach.  
 #### Utworzenie pierwszego Node'a
  Teraz aby utworzyć pierwszego Node. Trzeba nacisnąć na 2D Scene w oknie Scene. Utworzy się wtedy Node o typie Node2D  
 ![](assets/Create2DRootNode.png)  
